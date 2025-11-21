@@ -1,3 +1,6 @@
+Este é um **projeto da faculdade** que consiste em um **sistema web de controle de atendimentos**, permitindo cadastrar, listar, editar e excluir atendimentos através de um frontend em React integrado a uma API REST em Node.js com banco de dados MySQL.
+
+
 ````
 # Projeto Final – Controle de Atendimento
 
