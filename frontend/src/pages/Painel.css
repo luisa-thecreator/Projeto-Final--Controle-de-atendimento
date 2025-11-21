@@ -1,0 +1,71 @@
+.painel-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.painel-container h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 40px;
+  font-size: 2.5rem;
+}
+
+.senhas-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.sem-senhas {
+  text-align: center;
+  color: #666;
+  font-size: 1.5rem;
+  padding: 60px;
+}
+
+.senha-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 40px;
+  border-radius: 12px;
+  color: white;
+  transition: transform 0.3s;
+}
+
+.senha-card.destaque {
+  transform: scale(1.05);
+  box-shadow: 0 8px 30px rgba(0,0,0,0.3);
+}
+
+.senha-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.senha-codigo {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.senha-card.destaque .senha-codigo {
+  font-size: 3.5rem;
+}
+
+.senha-guiche {
+  font-size: 1.3rem;
+  opacity: 0.9;
+}
+
+.senha-tipo {
+  font-size: 2rem;
+  font-weight: bold;
+  background: rgba(255,255,255,0.2);
+  padding: 10px 20px;
+  border-radius: 8px;
+}
+
+.tipo-sp { background: linear-gradient(135deg, #e74c3c, #c0392b); }
+.tipo-sg { background: linear-gradient(135deg, #3498db, #2980b9); }
+.tipo-se { background: linear-gradient(135deg, #2ecc71, #27ae60); }

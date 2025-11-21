@@ -1,0 +1,76 @@
+.totem-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.totem-container h1 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.botoes-tipo {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.btn-tipo {
+  padding: 30px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.btn-tipo:hover {
+  transform: scale(1.02);
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+.btn-tipo:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.tipo-codigo {
+  display: block;
+  font-size: 3rem;
+  font-weight: bold;
+  color: white;
+}
+
+.tipo-label {
+  display: block;
+  font-size: 1.2rem;
+  color: white;
+  margin-top: 5px;
+}
+
+.btn-sp { background: linear-gradient(135deg, #e74c3c, #c0392b); }
+.btn-sg { background: linear-gradient(135deg, #3498db, #2980b9); }
+.btn-se { background: linear-gradient(135deg, #2ecc71, #27ae60); }
+
+.senha-emitida {
+  background: #f8f9fa;
+  padding: 40px;
+  border-radius: 16px;
+  margin-top: 30px;
+}
+
+.senha-emitida h2 {
+  margin-bottom: 20px;
+  color: #666;
+}
+
+.senha-codigo {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #2c3e50;
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
